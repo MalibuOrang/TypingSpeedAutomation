@@ -11,12 +11,8 @@
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
-
-Зависимости из `requirements.txt` нужны только для старых Selenium-экспериментов; для локальной практики они не обязательны.
-
+Зависимости из `requirements.txt` нужны только для Selenium; 
 ## Запуск
-
-Локальная практика (по умолчанию):
 
 ```powershell
 .\.venv\Scripts\python.exe run_project.py
